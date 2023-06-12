@@ -1,11 +1,11 @@
-About analytics-python
-======================
+About analytics-python-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/analytics-python-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/segmentio/analytics-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/analytics-python-feedstock/blob/main/LICENSE.txt)
 
 Summary: The hassle-free way to integrate analytics into any python application.
 
@@ -162,5 +162,6 @@ Feedstock Maintainers
 =====================
 
 * [@BrentDorsey](https://github.com/BrentDorsey/)
+* [@hadim](https://github.com/hadim/)
 * [@sugatoray](https://github.com/sugatoray/)
 
