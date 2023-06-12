@@ -1,6 +1,6 @@
 {% set name = "analytics-python" %}
 {% set pypi_name = "segment-analytics-python" %}
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 10ef6ee42b9e504b9db76b44c893e6a44c3ebc51cd01f475ac76f0e80a8fff09
+  sha256: 0df5908e3df74b4482f33392fdd450df4c8351bf54974376fbe6bf33b0700865
 
 build:
   noarch: python
