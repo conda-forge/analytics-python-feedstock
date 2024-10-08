@@ -162,7 +162,6 @@ Feedstock Maintainers
 =====================
 
 * [@BrentDorsey](https://github.com/BrentDorsey/)
-* [@hadim](https://github.com/hadim/)
 * [@sugatoray](https://github.com/sugatoray/)
 * [@thewchan](https://github.com/thewchan/)
 

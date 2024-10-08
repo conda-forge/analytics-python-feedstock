@@ -1,6 +1,6 @@
 {% set name = "analytics-python" %}
 {% set pypi_name = "segment-analytics-python" %}
-{% set version = "2.3.2" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 9321b1e03b0129fa69edba0b38c63c2de229db91abe7f849e3df015b8fbc1c36
+  sha256: ce6b3b4387ec9ebc5b55842c44d7dd63b4d4b0b8188e268c4492f909e5eeeed8
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools
   run:
     - python >=3.8
     - backoff ~=2.1
